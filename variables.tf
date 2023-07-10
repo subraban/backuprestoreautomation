@@ -8,7 +8,7 @@ default="sqlbackups"
 }
 variable "sqlinstance"
 type=string
-default="sqlserver-instance"
+default="instance1"
 }
 variable "dbversion"
 type=string
