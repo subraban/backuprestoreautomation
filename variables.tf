@@ -1,6 +1,6 @@
 variable "bucketname" {
 type=string
-default="backupandrestore"
+default="backupandrestoredborasql"
 }
 variable "sqlname" {
 type=string
