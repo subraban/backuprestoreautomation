@@ -4,7 +4,7 @@ default="oraclecoldbackup"
 }
 variable "sqlname" {
 type=string
-default="sqlbackups"
+default="sqlbackup"
 }
 variable "sqlinstance"
 type=string
@@ -12,7 +12,7 @@ default="instance1"
 }
 variable "dbversion"
 type=string
-default="SQLSERVER_2019_EXPRESS"
+default="SQLSERVER_2017_STANDARD"
 }
 variable "dbrootpwd"
 type=string
