@@ -78,18 +78,18 @@ resource "google_storage_bucket" "sqlbackuptos3_bucket" {
 
 resource "google_storage_bucket_object" "sql_object1" {
   name   = var.sqlfile1
-  bucket = google_storage_bucket.sql_bucket.name
+  bucket = google_storage_bucket.sqlbackuptos3_bucket.name
   source = var.sql1
 }
 
 resource "google_storage_bucket_object" "sql_object2" {
   name   = var.sqlfile2
-  bucket = google_storage_bucket.sql_bucket.name
+  bucket = google_storage_bucket.sqlbackuptos3_bucket.name
   source = var.sql2
 }
 resource "google_storage_bucket_object" "sql_object3" {
   name   = var.sqlfile3
-  bucket = google_storage_bucket.sql_bucket.name
+  bucket = google_storage_bucket.sqlbackuptos3_bucket.name
   source = var.sql3
 }
 
