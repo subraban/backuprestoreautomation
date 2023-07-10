@@ -1,6 +1,6 @@
-variable "oraname" {
+variable "bucketname" {
 type=string
-default="oraclecoldbackup"
+default="backupandrestore"
 }
 variable "sqlname" {
 type=string
