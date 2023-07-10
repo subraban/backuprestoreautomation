@@ -6,19 +6,19 @@ variable "sqlname" {
 type=string
 default="sqlbackup"
 }
-variable "sqlinstance"
+variable "sqlinstance" {
 type=string
 default="instance1"
 }
-variable "dbversion"
+variable "dbversion" {
 type=string
 default="SQLSERVER_2017_STANDARD"
 }
-variable "dbrootpwd"
+variable "dbrootpwd" {
 type=string
 default="Prakash@123"
 }
-variable "tier"
+variable "tier" {
 type=string
 default="db-custom-2-7680"
 }
