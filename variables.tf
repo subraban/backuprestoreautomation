@@ -143,13 +143,13 @@ default="DB3.bak"
 
 variable "sql1" {
 type=string
-default="D:/MSSQL14.SQL2017/DB1.bak"
+default="D:/MSSQL14.SQL2017/Backups/DB1.bak"
 }
 variable "sql2" {
 type=string
-default="D:/MSSQL14.SQL2017/DB2.bak"
+default="D:/MSSQL14.SQL2017/Backups/DB2.bak"
 }
 variable "sql3" {
 type=string
-default="D:/MSSQL14.SQL2017/DB3.bak"
+default="D:/MSSQL14.SQL2017/Backups/DB3.bak"
 }
