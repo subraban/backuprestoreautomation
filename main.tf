@@ -70,12 +70,6 @@ resource "google_storage_bucket_object" "ora_object12" {
 
 #Upload sql backup files to google storage bucket
 
-resource "google_storage_bucket" "my_bucket" {
-  name     = var.bucketname
-  location = var.location
-  storage_class = var.storage_class
-}
-
 resource "google_storage_bucket_object" "sql_object1" {
   name   = var.sqlfile1
   bucket = google_storage_bucket.my_bucket.name
